@@ -24,13 +24,16 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 
 ## Compiling, Training, and Evaluating the Model
 
-- We utilized 2 layers, because 3 layers didn’t contribute much to the improvement of the ML module. This is because the additional layer was redundant—the complexity of the dataset was encapsulated within the two hidden layers
+- The Model was trained on 100 epochs. We tried different epoch settings and the models did made significant continuous improvements as you can see in the results below.
 
 - Adam Optimizer which uses a gradient descent approach to ensure that the algorithm will not get stuck on weaker classifying variables and features and to enhance the performance of classification neural network was used.
 
-- The Model was trained on 100 epochs. We tried different epoch settings and the models did made significant continuous improvements as you can see in the results below.
+- Two hidden layers were used. One had 10 neurons and the otherhad 8.They both have the "relu" activation fuction. The activationfunction for the outputlayer is "sigmoid". Below is the code as well as the output.
+
+![The number of input features and hidden nodes] ("Model_sequential_1.png")
+
+![Model Accuracy] ("Model_accuracy.png")
 
 ## Summary
 
-we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.
-
+The model ended up with the accuracy score of 68% after optimization.More features could be removed or added to the dataset to increase accuracy.Additionaly, a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.
