@@ -30,9 +30,9 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 
 - Two hidden layers were used. One had 10 neurons and the otherhad 8.They both have the "relu" activation fuction. The activationfunction for the outputlayer is "sigmoid". Below is the code as well as the output.
 
-![The number of input features and hidden nodes] ("Model_sequential_1.png")
+![The number of input features and hidden nodes] (Model_sequential_1.png)
 
-![Model Accuracy] ("Model_accuracy.png")
+![Model Accuracy] (Model_accuracy.png)
 
 ## Summary
 
