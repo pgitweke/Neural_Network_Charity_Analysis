@@ -2,7 +2,13 @@
 
 # Overview of Project
 
-The purpose of this project is to use deep-learning neural networks with the TensorFlow platform in Python, to analyze  whether applicants will be successful if funded by Alphabet Soup..
+The purpose of this project is to use deep-learning neural networks with the TensorFlow platform in Python, to analyze  whether applicants will be successful if funded by Alphabet Soup. For this analysis we had a dataset containing various measures on 34,299 organizations that have been funded by Alphabet Soup. This project compromised of the 3 deliverables:
+
+- Preprocessing the data for the neural network
+
+- Compile, Train and Evaluate the Model
+
+- Optimizing the model
 
 ## Resources
 
