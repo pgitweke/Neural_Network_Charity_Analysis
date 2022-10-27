@@ -6,21 +6,21 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 
 ## Resources
 
-• Dataset charity_data.csv
+- Dataset charity_data.csv
 
-• Languages: Python
+- Languages: Python
 
-• Libraries: Scikit-learn, TensorFlow, Pandas
+- Libraries: Scikit-learn, TensorFlow, Pandas
 
 # Results:
 
 ## Data Preprocessing
 
-• EIN and NAME columns are droppped since they are identification information
+- EIN and NAME columns are droppped since they are identification information
 
-• IS_SUCCESSFUL contains binary data refering to weither or not the charity donation was used effectively. This variable is then considered as the target for our deep learning neural network.
+- IS_SUCCESSFUL contains binary data refering to weither or not the charity donation was used effectively. This variable is then considered as the target for our deep learning neural network.
 
-• APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for our model.
+- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for our model.
 
 ## Compiling, Training, and Evaluating the Model
 
